@@ -1,0 +1,41 @@
+.mainContainer {
+  display: flex;
+  padding: 1rem;
+  flex-wrap: wrap;
+}
+div.folder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #1976d2;
+}
+div.folder span {
+  color: gray;
+}
+
+div.folder .MuiSvgIcon-root {
+  font-size: 5rem;
+}
+.folderContainer,
+.addFolderContainer {
+  margin-left: 1rem;
+  /* min-width: 40px; */
+  text-align: center;
+  width: 6rem;
+  /* overflow: hidden; */
+  word-break: break-word;
+}
+.addFolderContainer .folder {
+  width: 5rem;
+  height: 5rem;
+  border: 2px dashed gray;
+  border-radius: 10px;
+}
+.addFolderContainer .folder .MuiSvgIcon-root {
+  font-size: 3rem;
+  color: gray;
+}
+.link {
+  text-decoration: none !important;
+}
